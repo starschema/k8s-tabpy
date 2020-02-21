@@ -1,0 +1,5 @@
+textblob 
+vaderSentiment
+reverse_geocoder 
+geopy
+tabpy
