@@ -8,6 +8,6 @@ spec:
   type: LoadBalancer
   ports:
   - port: 9004
-    protocol: HTTP
+    protocol: TCP
   selector:
     app: tabpy
