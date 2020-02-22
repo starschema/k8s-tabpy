@@ -1,5 +1,10 @@
-textblob 
+# pandas included in tabpy
+# scikit-learn included in tabpy
+matplotlib
+# textblob included in tabpy
 vaderSentiment
 reverse_geocoder 
 geopy
+h3
+# nltk included in tabpy
 tabpy
