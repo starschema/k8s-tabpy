@@ -2,7 +2,7 @@ FROM faizanbashir/python-datascience
 
 MAINTAINER Tamas Foldi <tfoldi@starschema.net>
 
-COPY requirements.txt ./
+COPY tabpy.conf requirements.txt ./
 
 RUN apk add --no-cache libffi-dev python3-dev libressl-dev \
 	&& rm -rf /var/cache/apk/*
@@ -14,5 +14,5 @@ RUN python -m textblob.download_corpora lite && python -m nltk.downloader vader_
 
 EXPOSE 9004
 
-CMD [ "tabpy" ]
+CMD [ "tabpy", "--config=./tabpy.conf" ]
 
