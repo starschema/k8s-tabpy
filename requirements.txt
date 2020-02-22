@@ -1,6 +1,6 @@
 # pandas included in tabpy
 # scikit-learn included in tabpy
-matplotlib
+statsmodels==0.10.2
 # textblob included in tabpy
 vaderSentiment
 reverse_geocoder 
