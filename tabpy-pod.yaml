@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tabpy-deployment
+  labels:
+    app: tabpy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tabpy
+  template:
+    metadata:
+      labels:
+        app: tabpy
+    spec:
+      containers:
+      - name: tabpy
+        image: tfoldi/k8s-tabpy
+        ports:
+        - containerPort: 9004
