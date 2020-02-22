@@ -2,10 +2,12 @@
 
 Free to use [TabPy](https://github.com/tableau/TabPy/) Server to test Tableau Desktop, Server and Prep Builder python integration. 
 
-## Where to use it
+## How to use it
 
-Hostname: `tabpy.starschema.com`
-Port: `9004`
+These are the connection information:
+
+    Hostname: `tabpy.starschema.com`
+    Port: `9004`
 
 How to configure: https://help.tableau.com/current/pro/desktop/en-us/r_connection_manage.htm#configure-an-external-service-connection
 
