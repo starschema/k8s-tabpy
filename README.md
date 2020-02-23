@@ -1,4 +1,4 @@
-# Publlic TabPy Server for the People!
+# Public TabPy Server for the People!
 
 Free to use [TabPy](https://github.com/tableau/TabPy/) Server to test Tableau Desktop, Server and Prep Builder python integration. 
 
