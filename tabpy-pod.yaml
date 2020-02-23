@@ -16,12 +16,11 @@ spec:
     spec:
       containers:
       - name: tabpy
-        image: tfoldi/k8s-tabpy
+        image: tfoldi/k8s-tabpy:stable
         ports:
         - containerPort: 9004
         securityContext:
           runAsUser: 1000
           allowPrivilegeEscalation: false
           privileged: false
-          hostNetwork: false
 
