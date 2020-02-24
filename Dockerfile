@@ -8,7 +8,6 @@ COPY tabpy.conf requirements.txt ./
 ENV PACKAGES="\
     dumb-init \
     musl \
-    libc6-compat \
     freetype \
     libgfortran \
     libstdc++ \
